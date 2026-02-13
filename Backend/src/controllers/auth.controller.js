@@ -38,6 +38,8 @@ export const signup = async (req, res) => {
                 _id: newUser._id,
                 fullName: newUser.fullName,
                 email: newUser.email,
+
+                
                 profilePicture: newUser.profilePicture
             })
 
